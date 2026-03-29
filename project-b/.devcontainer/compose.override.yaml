@@ -1,0 +1,4 @@
+services:
+  dev:
+    environment:
+      REPRO_PROJECT: project-b

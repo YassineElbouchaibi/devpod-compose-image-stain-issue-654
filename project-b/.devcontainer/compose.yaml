@@ -1,0 +1,6 @@
+services:
+  dev:
+    image: devpod-repro-shared-base:latest
+    command: sleep infinity
+    volumes:
+      - ..:/workspaces/project-b

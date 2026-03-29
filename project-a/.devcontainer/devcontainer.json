@@ -1,0 +1,13 @@
+{
+  "name": "devpod-repro-project-a",
+  "dockerComposeFile": [
+    "compose.yaml",
+    "compose.override.yaml"
+  ],
+  "service": "dev",
+  "workspaceFolder": "/workspaces/project-a",
+  "shutdownAction": "stopCompose",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  }
+}
